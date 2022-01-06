@@ -1,0 +1,22 @@
+.box {
+  display: inline-block;
+  border: 2px solid rebeccapurple;
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+/* positon static - it will position itself according to DOM  */
+/* position relative - it will position itself according to its actual position */
+/* position absolute - it will position itself W.r.t its parent element */
+/* position sticky - its position will be fixed. */
+
+#box-3 {
+  position: fixed;
+  top: 34px;
+  right: 34px;
+}
+.container {
+  background-color: salmon;
+  width: 2000px;
+  height: 2000px;
+}
